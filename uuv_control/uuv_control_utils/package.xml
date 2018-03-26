@@ -27,5 +27,5 @@
   <run_depend>python-yaml</run_depend>
   <run_depend>visualization_msgs</run_depend>
   <run_depend>nav_msgs</run_depend>
-  <run_depend>uuv_trajectory_control</run_depend>
+  <run_depend>uuv_trajectory_control</run_depend>  
 </package>

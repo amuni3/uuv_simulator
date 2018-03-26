@@ -28,11 +28,14 @@ if __name__ == '__main__':
         print 'ROS master not running!'
         sys.exit(-1)
 
+
+    # filename = 'example_waypoints.yaml'
+
     if rospy.has_param('~filename'):
         filename = rospy.get_param('~filename')
     else:
         raise rospy.ROSException('No filename found')
-
+    
     # If no start time is provided: start *now*.
     start_time = rospy.Time.now().to_sec()
     start_now = True
