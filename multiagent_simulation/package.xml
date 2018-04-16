@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package>
-  <name>uuv_multiagent_simulation</name>
+  <name>multiagent_simulation</name>
   <version>0.0.0</version>
-  <description>The uuv_multiagent_simulation package</description>
+  <description>The multiagent_simulation package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="aneri2794@gmail.com">aneri</maintainer>
+  <maintainer email="aneri@todo.todo">aneri</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/uuv_multiagent_simulation</url> -->
+  <!-- <url type="website">http://wiki.ros.org/multiagent_simulation</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->

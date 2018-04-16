@@ -46,7 +46,7 @@ class DPControllerLocalPlanner(object):
         self._logger.setLevel(logging.INFO)
 
         self._lock = Lock()
-        
+
         self._traj_interpolator = uuv_trajectory_generator.TrajectoryGenerator(
             full_dof=full_dof, stamped_pose_only=stamped_pose_only)
 
@@ -401,7 +401,7 @@ class DPControllerLocalPlanner(object):
             return np.array([0, 0, 0, 1])
         else:
             return self._vehicle_pose.rotq
-        
+
     def _update_trajectory_from_msg(self, msg):
         self._stamp_trajectory_received = rospy.get_time()
         self._traj_interpolator.init_from_trajectory_message(msg)
@@ -504,7 +504,7 @@ class DPControllerLocalPlanner(object):
             self._logger.error('Error while setting circular trajectory, msg=' + str(e))
             self.set_station_keeping(True)
             self.set_automatic_mode(False)
-            self.set_trajectory_running(False)            
+            self.set_trajectory_running(False)
             self._lock.release()
             return InitCircularTrajectoryResponse(False)
 

@@ -13,7 +13,7 @@
   </include>
 
   <include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
-  
+
   <node name="publish_world_models"
         pkg="uuv_assistants"
         type="publish_world_models.py"

@@ -1,7 +1,6 @@
 <launch>
   <arg name="uuv_name" />
-  <arg name="filename" default="$(find uuv_control_utils)/config/formation_waypoints.yaml"/>
-  <!--arg name="filename" default="$(find uuv_control_utils)/config/example_waypoints.yaml"/-->
+  <arg name="filename" default="$(find uuv_control_utils)/config/formation_waypoints2.yaml"/>
   <arg name="start_time" default="-1"/>
 
   <group ns="$(arg uuv_name)">

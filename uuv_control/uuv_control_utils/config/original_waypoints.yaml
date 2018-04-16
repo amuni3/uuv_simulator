@@ -1,47 +1,47 @@
 inertial_frame_id: world
 waypoints:
   -
-    point: [1005, 152, -5]
+    point: [0, 2, -22]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1016, 154, -14]
+    point: [16, 12, -24]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1020, 160, -22]
+    point: [20, 12, -27]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1025, 162, -25]
+    point: [25, 16, -25]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1034, 166, -32]
+    point: [25, 20, -25]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1042, 161, -39]
+    point: [30, 40, -25]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1050, 158, -42]
+    point: [36, 45, -25]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1052, 156, -47]
+    point: [40, 50, -30]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
   -
-    point: [1057, 154, -50]
+    point: [47, 56, -33]
     max_forward_speed: 0.4
     heading: 0
     use_fixed_heading: False
