@@ -156,6 +156,7 @@ Visualization Manager:
     - Class: rviz/Image
       Enabled: true
       Image Topic: /rexrov1/rexrov1/camera/camera_image
+      Autosize: True
       Max Value: 1
       Median window: 5
       Min Value: 0

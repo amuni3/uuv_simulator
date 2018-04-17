@@ -8,23 +8,23 @@
 
     <!-- Add the RexROV vehicle to the simulation (namespace: rexrov) -->
     <include file="$(find uuv_descriptions)/models/rexrov/launch/upload_rexrov.launch">
-        <arg name="x" default="45"/> <!--(20,-20, 0) (20,0, 0) (20,20,0)-->
-        <arg name="y" default="0"/>
+        <arg name="x" default="105"/> <!--(20,-20, 0) (20,0, 0) (20,20,0)-->
+        <arg name="y" default="30"/>
         <arg name="z" default="0"/>
         <arg name="yaw" default="0"/>
         <arg name="namespace" value="rexrov1"/>
     </include>
 
     <include file="$(find uuv_descriptions)/models/rexrov/launch/upload_rexrov.launch">
-        <arg name="x" default="55"/>
-        <arg name="y" default="0"/>
+        <arg name="x" default="105"/>
+        <arg name="y" default="-30"/>
         <arg name="z" default="0"/>
         <arg name="yaw" default="0"/>
         <arg name="namespace" value="rexrov2"/>
     </include>
 
     <include file="$(find uuv_descriptions)/models/rexrov/launch/upload_rexrov.launch">
-        <arg name="x" default="90"/>
+        <arg name="x" default="177"/>
         <arg name="y" default="0"/>
         <arg name="z" default="0"/>
         <arg name="yaw" default="0"/>
@@ -69,4 +69,8 @@
 
     >> roslaunch uuv_control_utils send_waypoints_file.launch uuv_name:=rexrov
     -->
+
+    <!-- formation control start coordinates -> (45,0,0), (55,0,0), (90,0,0) -->
+    <!-- approaching wreck coordinates -> (1000,150,0), (1100,150,0), (1050,150,0) -->
+
 </launch>
